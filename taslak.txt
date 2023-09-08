@@ -1,0 +1,63 @@
+-dondruma classımız olsun
+    -her dondurma türü bu classtan üretilsin
+    -Attributes:
+        -aroma
+        -stok adedi
+    -Methods:
+        -__init__(self, aroma, stok adedi)
+        -get_stock(self, aroma)
+        -add_stock(self, aroma, adet)
+        -decrease_stock(self, aroma, adet) bozulan dondruma falan olursa buradan eksiltiriz
+
+-çalışanlar classımız olsun
+    -Attributes:
+        -ad
+        -soyad
+        -yaş
+        -telefon numarası
+        -adres
+        -eposta
+        -ne kadar süredir çalıştığı
+        -maaş bilgisi
+        -aylık satış sayısı
+    -Methods:
+        -__init__(self, Attributesların hepsi ...)
+        -get_salary(self)
+        -get_sales_amount(self)
+        -change_salary(self, amouunt)
+        -update_information(self, ad, soyad, telefon numarası, adres, eposta, maaş bilgis ) çalıştığı süre ve satış sayısı otomatik hesaplanacak
+
+-Müşteri classımız olsun:
+    -müşteri sürekli gelebilecek biriyse kayıt yapalım mı diye soralım. Evet derse hesap açalım.
+    -Attributes:
+        -ad-soyad
+        -adres
+        -kaç dondurma aldığı
+        -varsa borç miktarı
+    -Methods:
+        -__init__(self, Attributesların hepsi ...)
+        - getter/setter metotları
+        -musteri_sil(?) fikir olarak aklıma geldi ama nasıl yapacağımı bilemedim:D
+
+-satış işlemleri classımız olsun
+    -3 tip satış olsun: nakit, kredi kartı, veresiye(müşteri adını, telefon numarasını, adresini tutalım)
+    -dondurmalar kapta ve ya külahta satılacağı için 2 farklı fiyat olacak
+    -satış yapılmadan önce stok kontrolü yapacağız
+    -Methods:
+        -dondurma_sat(self, aroma, adet, satıs sekli, personel adı, musteri adı = null)
+        -dondurma_sat(self, aroma, adet, satıs sekli, borc miktarı, personel adı, musteri adı = null) //veresiye işlemi için yazılan çok biçimli metot
+
+-kampanyalar classı olsun
+    -9 top alana 1 top bedava olsun
+    -bir dondurmanın yere düşmesi durumunda 1 top dondurma hediye edilsin
+
+-aylık gelir gider classı olsun
+    -aylık ciro ve aylık kar bilgisi gibi bilgiler hesaplansın
+    -Attributes:
+        -aylık ciro
+        -aylık gider
+        -aylık kâr
+    -bunları görebileceğimiz metotlar olsun
+        -get_turnover(self)
+        -get_expense(self)
+        -get_profit(self)

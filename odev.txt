@@ -1,0 +1,19 @@
+	
+Class Structure - Icecream Example
+Two Scoops of Ice Cream App:
+
+Bir dondurmacının; satışlarını, stok bilgisini ve kar zarar durumunu kontrol edebileceği bir uygulama yazılması isteniyor.
+
+Uygulama modellenirken dikkate alınması gereken hususlar;
+- Dondurmacıda farklı dondurma türleri satılmaktadır. Her çeşit dondurmanın 1 topu aynı fiyata satılmaktadır.
+- Dondurmacılar dondurmalar geldiğinde türleri ile birlikte kaç top dondurma geldiğini girmelidir. Fakat top fiyatları aynı olduğu için tür girmek istemeyebilirler.
+- Müşteri dondurmasını kapta ya da külahta isteyebilir. Alınacak ücret müşterinin tercihine göre değişir.
+- Dondurmacıda satış gerçekleştiren çalışanlar vardır.
+- Çalışanlardan her birinin ne kadar satış yaptığı bilgisi tutulmalıdır. 
+- Satış yapılmadan önce stok kontrolü yapılmalıdır.
+- Satış yapılırken ödeme yöntemleri(nakit, kredi kartı, veresiye) girilmelidir. Eğer veresiye ise müşteri isim-soy isim alınmalıdır.
+- 9 top alana 1 top dondurma bedava gibi kampanyalar uygulanabilir.
+- Dondurma yere düşerse ücretsiz 1 top dondurma verilir.
+- Aylık toplam satış bilgisi tutulmalıdır.
+- Kar zarar bilgisi tutulmalıdır. 
+- Aylık satış bilgisi tutulmalıdır.
